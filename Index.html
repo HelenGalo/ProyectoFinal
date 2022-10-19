@@ -4,28 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/estilo.css">
 
     <title>Proyecto Final</title>
 </head>
 <body>
      <header>
-        <h1>Fiber</h1>
+        <h2 id="title">Fiber</h2>
+        <h1 id="title-2">Create your Fiber account
+
+        </h1>
 
     </header>
 
     <main>
         <section class="form">
             <form action="">
+            
                 <label for="nombre">Your Name</label>
-                <input type="text" name="nombre" placeholder="John Doe"> 
+                <div class="input">
+                    <input type="text" name="nombre" placeholder="John Doe"> 
+                </div>
+             
                 <label for="correo">E-mail</label>
-                <input type="email" name="email"  placeholder="john@example.com"> 
+                <div class="input">
+                    <input type="email" name="email"  placeholder="john@example.com"> 
+                </div>
+             
                 <label for="¨contra">Password</label>
+                <div class="input">
                 <input type="password" name="contra">
-                <input type="checkbox" name="select" ><p>By creating an account on Fiber, you agree to the <a href="Terms & Conditions" ></a>Terms & Conditions</p>
-
+                </div>
+               <p>  <input type="checkbox" name="select" id="caja" >By creating an account on Fiber, you agree to the <a href="Terms & Conditions" >Terms & Conditions</a></p>
+               <div class="btn">
                 <input type="submit" value="Create Fiber Account">
-                <p>Already have an account? <a href="Sign in"></a>Sign in</p>
+               </div>
+               
+                <p>Already have an account? <a href="Sign in">Sign in</a></p>
 
 
             </form>
