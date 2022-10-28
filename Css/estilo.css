@@ -29,7 +29,7 @@ header{
     padding: 2% 5%;
    }
 
-   .form {
+   .forma{
     display: flex;
     align-content:center;
     justify-content: center;
@@ -37,6 +37,10 @@ header{
     padding: 2% 5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+   }
+
+   .form2{
+      display: none;
    }
    .input input{
     width: 100%;
@@ -51,24 +55,149 @@ header{
  
   
  }
-  P #caja {
-   justify-self: left;
-   width: 9%;
-   height: 9%;
-
-   
- }
-.btn input {
+ .input1 input{
     width: 100%;
     padding: 3%;
     margin-block-end: 4%;
     margin-block-start: 4%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia;
     font-size: 20px;
-    color: black; 
+    color: black;
     border-radius: 5px;
-    background-color: blueviolet;
+    border-color: aliceblue;
+    
+   
+ }
+
+ .caja {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+ }
+ .caja a {
+    color: rgb(82, 10, 175);
+    font-weight:bold;
+ }
+ .caja p {
+    margin-top: 7%;
+    font-size: 16px;
+    margin-left: 3%;
+    
+ }
+ .caja #caja{
+    width: 12%;
+    margin-bottom: 7%;
+    border-radius: 5px;
+    border: none;
+
+ }
+.btn input {
+    width: 100%;
+    padding: 5%;
+    margin-block-end: 4%;
+    margin-block-start: 4%;
+    margin-top: 10%;
+    font-family: 'Lucida Sans';
+    font-size: 20px;
+    color: white; 
+    border-radius: 5px;
+    background-color: rgb(73, 9, 156);
     border: none;
   
+   
+}
+#final{
+font-size: 15px;
+text-align: center;
+
+    
+}
+#final a {
+    color: rgb(82, 10, 175);
+    text-decoration: none;
+}
+
+
+@media (min-width:990px) {
+   .principal{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      width: 100%;
+
+ 
+      
+   }
+   .forma{
+      width: 50%;
+      height: max-content;
+      margin-bottom: 20%;
+      margin-top: 2%;
+      padding: 5% 5%;
+     
+      
+   }
+   .forma form #title-2 {
+      padding: 10% 5%;
+      
+   }
+   .forma form{
+      width: 90%;
+      height: 80%;
+   
+   }
+   #title-2{
+      width: 95%;
+      margin-bottom: 5%;
+      font-weight:540;
+      font-family: Georgia;
+   }
+ 
+   .form2{
+    display: flex;
+    background-color: blueviolet;
+    width: 50%;
+
+
+
+   }
+   .imagen img{
+      width: 100%;
+      height: 50%;
+      padding: 9%    ;
+      margin-top: 15%;
+     
+   
+   }
+   .imagen h1{
+      color: white;
+      text-align: center;
+      font-weight: 800;
+      font-size: 35px;
+
+    
+   }
+   #parra{
+      color: white;
+      font-size: 20px;
+      text-align: center;
+
+      margin:  2% 20%;
+   
+   }
+   .caja p {
+      margin-top: 1%;
+      font-size: 20px;
+      margin-left: 3%;
+      
+   }
+   .caja #caja{
+      width: 5%;
+      margin-bottom: 6%;
+      border-radius: 5px;
+      border: none;
+  
+   }
    
 }

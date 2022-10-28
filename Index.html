@@ -5,47 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Css/estilo.css">
-
+    
     <title>Proyecto Final</title>
 </head>
 <body>
-     <header>
-        <h2 id="title">Fiber</h2>
-        <h1 id="title-2">Create your Fiber account
-
-        </h1>
-
-    </header>
-
-    <main>
-        <section class="form">
-            <form action="">
-            
-                <label for="nombre">Your Name</label>
-                <div class="input">
-                    <input type="text" name="nombre" placeholder="John Doe"> 
+    <section class="principal">
+       <div class="forma">
+                    <h2 id="title">Fiber</h2>
+                  <h1 id="title-2">Create your Fiber account </h1>
+                <form action="">
+                
+                        <label for="nombre">Your Name</label>
+                    <div class="input">
+                            <input type="text" name="nombre" placeholder="John Doe"> 
+                    </div>
+                     
+                    <label for="correo">E-mail</label>
+                    <div class="input">
+                            <input type="email" name="email"  placeholder="john@example.com"> 
+                     </div>
+                     
+                    <label for="contra">Password</label>
+                    <div class="input1">
+                        <input type="password" name="contra" id="contra" placeholder="At least 8 characters " />
+                        
+                    </div>
+                    <div class="caja">
+                        <input type="checkbox" name="select" id="caja" > 
+                         <p>  By creating an account on Fiber, you agree to the <a href="Terms & Conditions" >Terms & Conditions</a></p>
+                    </div>
+                     
+                    <div class="btn">
+                        <input type="submit" value="Create Fiber Account">
+                     </div>
+        
+                       <p id="final">Already have an account? <a href="Sign in">Sign in</a></p>
+                       
+        
+        
+                </form>
+        </div>
+        <div class="form2">
+                <div class="imagen">
+                    <img src="img/Sign Up Image.png" alt="">
+                    <h1>
+                        Unparalleled Templates
+                    </h1>
+                    <p id="parra">Create by teams of professional designers, our templates are  eunparalleled in the market.</p>
                 </div>
-             
-                <label for="correo">E-mail</label>
-                <div class="input">
-                    <input type="email" name="email"  placeholder="john@example.com"> 
-                </div>
-             
-                <label for="¨contra">Password</label>
-                <div class="input">
-                <input type="password" name="contra">
-                </div>
-               <p>  <input type="checkbox" name="select" id="caja" >By creating an account on Fiber, you agree to the <a href="Terms & Conditions" >Terms & Conditions</a></p>
-               <div class="btn">
-                <input type="submit" value="Create Fiber Account">
-               </div>
-               
-                <p>Already have an account? <a href="Sign in">Sign in</a></p>
+                
+    
+        </div>
 
 
-            </form>
-
-        </section>
-    </main>
+    </section>
+    
 </body>
 </html>
